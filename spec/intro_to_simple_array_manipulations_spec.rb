@@ -58,8 +58,9 @@ end
 describe "using_shift" do 
   before(:each) do 
     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-    binding.pry
     @im_so_over_this_city = using_shift(@my_favorite_cities)
+    binding.pry
+    puts 'hello'
   end
   it "takes in an argument of an array and uses the shift method to remove the first item and return it" do 
     expect(@im_so_over_this_city).to eq("Lagos")
