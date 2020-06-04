@@ -15,7 +15,7 @@ def pop_with_args(array)
   array.pop(2)
 end
 
-def using_shift(arary)
+def using_shift(array)
   first_item = array.shift()
   binding.pry
   first_item
