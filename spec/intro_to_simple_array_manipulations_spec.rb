@@ -57,7 +57,6 @@ end
 
 describe "using_shift" do 
   before(:each) do 
-    binding.pry
     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
     binding.pry
     @im_so_over_this_city = using_shift(@my_favorite_cities)
