@@ -1,4 +1,5 @@
 require './lib/intro_to_simple_array_manipulations.rb'
+require 'pry'
 
 
 describe "using_push" do 
@@ -56,6 +57,7 @@ end
 
 describe "using_shift" do 
   before(:each) do 
+    binding.pry
     @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
     @im_so_over_this_city = using_shift(@my_favorite_cities)
   end
