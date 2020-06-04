@@ -1,3 +1,4 @@
+require 'pry'
 def using_push(array, string)
   array.push(string)
 end
@@ -16,5 +17,6 @@ end
 
 def using_shift(arary)
   first_item = array.shift()
+  binding.pry
   first_item
 end
