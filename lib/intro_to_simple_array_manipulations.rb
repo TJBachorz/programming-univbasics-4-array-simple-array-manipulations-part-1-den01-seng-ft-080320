@@ -17,6 +17,5 @@ end
 
 def using_shift(array)
   first_item = array.shift()
-  binding.pry
   first_item
 end
